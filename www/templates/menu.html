@@ -14,21 +14,27 @@
 
   <ion-side-menu side="left">
     <ion-header-bar class="bar-stable">
-      <h1 class="title">Left</h1>
+      <h1 class="title"><img style="width:35px;height:35px;" src="img/logo.jpg"/> Jomp</h1>
     </ion-header-bar>
     <ion-content>
       <ion-list>
         <ion-item menu-close ng-click="login()">
-          Login
+          <i class="icon ion-log-in"></i> Login
         </ion-item>
-        <ion-item menu-close href="#/app/search">
-          Search
-        </ion-item>
+        <!--<ion-item menu-close href="#/app/search">-->
+        <!--  Search-->
+        <!--</ion-item>-->
         <ion-item menu-close href="#/app/browse">
-          Browse
+          <i class="icon ion-ios-location"></i> Map
         </ion-item>
-        <ion-item menu-close href="#/app/playlists">
-          Playlists
+        <ion-item menu-close href="#/app/recent">
+          <i class="icon ion-ios-star"></i> Recent Viewed
+        </ion-item>
+        <ion-item menu-close href="#/app/about">
+          <i class="icon ion-information-circled"></i> About
+        </ion-item>
+        <ion-item menu-close href="#/app/setting">
+          <i class="icon ion-gear-b"></i> Setting
         </ion-item>
       </ion-list>
     </ion-content>
